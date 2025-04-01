@@ -1,4 +1,3 @@
-import Content from "../src/components/Content"
 import Card from "../src/components/Card"
 import cardData from "../src/data"
 

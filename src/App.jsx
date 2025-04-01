@@ -4,6 +4,7 @@ import Card from './components/Card'
 import Content from "./components/Content"
 import TechSkills from "../sections/TechSkills"
 import './App.css'
+import Education from "../sections/Education"
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <Card title="About Me" />
       <TechSkills />
-      <Card title="Education" />
+      <Education />
       <Card title="Contact" />
     </>
   )
