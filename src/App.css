@@ -1,6 +1,17 @@
+.card {
+  /* display: flexbox;
+  justify-content: center; */
+  background-color: blanchedalmond;
+  border-radius: 1rem 1rem;
+  width: 49%;
+  height: 60%;
+}
 
-
-
+.top-card-section, .bottom-card-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
 
 
 /* #root {

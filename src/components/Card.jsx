@@ -3,8 +3,9 @@ import Content from "./Content"
 function Card({ title, children }) {
     return (
         <div className="card">
-            <h3>{title}</h3>
-                <Content>{children}</Content>
+            <Content>
+                <h3>{title}</h3>{children}
+            </Content>
         </div>
     )
 }

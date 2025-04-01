@@ -11,10 +11,13 @@ function App() {
   return (
     <>
       <Header />
-      <Card title="About Me" />
+      <div className="top-card-section"><Card title="About Me" />
       <TechSkills />
+      </div>
+      <div className="bottom-card-section">
       <Education />
       <Card title="Contact" />
+      </div>
     </>
   )
 }

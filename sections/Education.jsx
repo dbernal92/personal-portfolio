@@ -1,7 +1,7 @@
 import Card from "../src/components/Card"
 import cardData from "../src/data"
 
-function Education() {
+function Education(props) {
     return (
         <Card title="Education">
             {cardData.education[0].degrees.map((degree, index) => (
