@@ -7,8 +7,11 @@ function App() {
   return (
     <>
       <Header />
-      <Card title="Projects" />
       <Card title="About Me" />
+      <Card title="Technical Skills" />
+      <Card title="Projects" />
+      <Card title="Education" />
+      <Card title="Contact" />
     </>
   )
 }
