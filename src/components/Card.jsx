@@ -1,7 +1,10 @@
-function Card(props) {
+import Content from "./Content"
+
+function Card({ title, children }) {
     return (
-        <div>
-            <h3>{props.title}</h3>
+        <div className="card">
+            <h3>{title}</h3>
+                <Content>{children}</Content>
         </div>
     )
 }

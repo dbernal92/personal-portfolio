@@ -1,4 +1,4 @@
-cardData = {
+const cardData = {
     techSkills: [
         {
             programLanguages: ["JavaScript", "Python", "Java"],
@@ -17,8 +17,10 @@ cardData = {
    ],
     projects: [
         {
-            names: ["Parking Lot Management System", "'Book Search App", "Fitness Tracker App"],
+            names: ["Parking Lot Management System", "Book Search App", "Fitness Tracker App"],
             tech: ["Java", "React", "React, Chart.js"]
         }
     ]
 }
+
+export default cardData

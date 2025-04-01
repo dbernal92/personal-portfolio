@@ -1,5 +1,8 @@
+import cardData from "../src/data"
 import Header from './components/Header'
 import Card from './components/Card'
+import Content from "./components/Content"
+import TechSkills from "../sections/TechSkills"
 import './App.css'
 
 function App() {
@@ -8,8 +11,7 @@ function App() {
     <>
       <Header />
       <Card title="About Me" />
-      <Card title="Technical Skills" />
-      <Card title="Projects" />
+      <TechSkills />
       <Card title="Education" />
       <Card title="Contact" />
     </>
