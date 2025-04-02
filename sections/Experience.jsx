@@ -1,5 +1,5 @@
-import Card from "../src/components/Card";
-import resumeData from "../src/resumeData";
+import Card from "../src/components/Card"
+import resumeData from "../src/resumeData"
 
 function Experience(props) {
     return (

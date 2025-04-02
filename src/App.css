@@ -1,58 +1,53 @@
-.card {
-  /* display: flexbox;
-  justify-content: center; */
-  background-color: blanchedalmond;
-  border-radius: 1rem 1rem;
-  width: 49%;
-  height: 60%;
-}
-
-#top-card-section, #bottom-card-section {
-  display: flex;
-  justify-content: space-evenly;
-  /* gap: 1rem; */
-}
-
-
-/* #root {
+/* Main App Container */
+/* .app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  min-height: 100vh;
 } */
+
+/* Card Layout Sections */
+/* .card-grid-section {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  margin: 2rem 0;
+} */
+
+/* Base Card Styles (override in Card.module.css if needed) */
+.card {
+  background: var(--card-bg);
+  border-radius: 1rem;
+  justify-items: center;
+  align-content: center;
+  /* width: 1%; */
+  padding: 20px;
+  /* padding: var(--spacing-md); */
+  box-shadow: 0 20px 8px rgba(0,0,0,0.1);
+}
+
+#about-me, #contact, #top-card-section, #middle-card-section, #bottom-card-section {
+  display: flex;
+  margin: 50px;
+  gap: 2%;
+}
+
+#top-card-section {
+  justify-content: center;
+}
+
+#profile-pic {
+  max-width: 70%;
+  border-radius: 50%;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+  
+  .card-grid-section {
+    flex-direction: column;
+  }
+}

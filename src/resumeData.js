@@ -1,6 +1,6 @@
 const resumeData = {
     personalInfo: {
-        name: "Darien Bernal",
+        // name: "Darien Bernal",
         pronouns: "she/her",
         location: "Brooklyn, NY",
         phone: "(347) 351-4169",

@@ -1,3 +1,31 @@
+/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  background-color: rgb(252, 223, 212);
+  color: #333;
+}
+
+/* Color Variables */
+:root {
+  --primary-color: #3a86ff;
+  --card-bg: rgb(243, 160, 192);
+  --text-dark: #1a1a1a;
+  --spacing-md: 1.5rem;
+}
+
+/* Anchor Reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
