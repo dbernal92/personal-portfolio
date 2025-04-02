@@ -1,14 +1,19 @@
 import Card from "../src/components/Card"
-import cardData from "../src/data"
+import resumeData from "../src/resumeData"
 
 function Education(props) {
     return (
         <Card title="Education">
-            {cardData.education[0].degrees.map((degree, index) => (
+            {resumeData.education.map((edu, index) => (
                 <div key={index}>
-                    <h4>{degree}:</h4>
-                    <p>{cardData.education[0].schools[index]}</p>
-                    <p>{cardData.education[0].dates[index]}</p>
+                    <h4>{edu.degree}</h4>
+                    <p>{edu.school}, {edu.location}</p>
+                    <p>{edu.date}</p>
+                    <ul>
+                        {edu.details.map((detail, i) => (
+                            <li key={i}>{detail}</li>
+                        ))}
+                    </ul>
                 </div>
             ))}
         </Card>

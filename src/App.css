@@ -7,10 +7,10 @@
   height: 60%;
 }
 
-.top-card-section, .bottom-card-section {
+#top-card-section, #bottom-card-section {
   display: flex;
-  justify-content: space-around;
-  gap: 1rem;
+  justify-content: space-evenly;
+  /* gap: 1rem; */
 }
 
 
