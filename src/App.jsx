@@ -11,7 +11,7 @@ import './App.css'
 function App() {
 
   return (
-    <>
+    <div id='page'>
       <Header />
       <div id="about-me">
         <AboutMe />
@@ -23,14 +23,10 @@ function App() {
         <Education />
         <Projects />
       </div>
-      <div id="middle-card-section">
-        
-        
-      </div>
       <div id="bottom-card-section">
         <Experience />
       </div>
-    </>
+    </div>
   )
 }
 

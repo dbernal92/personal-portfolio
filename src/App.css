@@ -23,16 +23,25 @@
   /* width: 1%; */
   padding: 20px;
   /* padding: var(--spacing-md); */
-  box-shadow: 0 20px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 20px 8px rgb(155, 121, 185, .5);
+}
+
+#page {
+  justify-items: center;
 }
 
 #about-me, #contact, #top-card-section, #middle-card-section, #bottom-card-section {
   display: flex;
   margin: 50px;
   gap: 2%;
+  width: 60%;
 }
 
 #top-card-section {
+  justify-content: center;
+}
+
+#bottom-card-section {
   justify-content: center;
 }
 
