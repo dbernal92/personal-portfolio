@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1');
 
 /* Reset & Base Styles */
 * {
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: Cormorant, system-ui, -apple-system, sans-serif;
+  font-family: "IM Fell French Canon", serif, system-ui, -apple-system, sans-serif;
   line-height: 1.6;
   background-color: rgb(252, 223, 212);
   color: #333;
