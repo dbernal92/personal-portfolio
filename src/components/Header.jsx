@@ -1,7 +1,7 @@
 function Header() {
-    return (
-     <header><h1>Darien Bernal</h1></header>
-    );
-  }
-  
-  export default Header;
+  return (
+   <header><h1>Darien Bernal</h1></header>
+  );
+}
+
+export default Header;
